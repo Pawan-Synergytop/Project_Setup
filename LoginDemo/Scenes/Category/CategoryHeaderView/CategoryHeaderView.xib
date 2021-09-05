@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="roboto_medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="CategoryHeaderView" id="U7y-7U-Yb9" customClass="CategoryHeaderView" customModule="LoginDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pmd-6J-KQb" userLabel="contentView">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="70"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bird-cate-image" translatesAutoresizingMaskIntoConstraints="NO" id="jJI-gT-MVI" customClass="IBImageView" customModule="LoginDemo" customModuleProvider="target">
+                            <rect key="frame" x="8" y="15" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="vS6-u6-Qte"/>
+                                <constraint firstAttribute="width" constant="40" id="yww-Up-8At"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="0.0"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" name="colorLightGray"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Header" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Deb-5q-lyA">
+                            <rect key="frame" x="64" y="24.666666666666671" width="58.333333333333343" height="21"/>
+                            <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="18"/>
+                            <color key="textColor" name="colorGray"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_gray" translatesAutoresizingMaskIntoConstraints="NO" id="QCM-1l-rLZ">
+                            <rect key="frame" x="572" y="25" width="20" height="20"/>
+                            <color key="tintColor" name="colorDarkGray"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="20" id="7U7-iG-lN2"/>
+                                <constraint firstAttribute="height" constant="20" id="zCO-K9-CkM"/>
+                            </constraints>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FOQ-aQ-GiF">
+                            <rect key="frame" x="0.0" y="65" width="600" height="1"/>
+                            <color key="backgroundColor" systemColor="systemGray6Color"/>
+                            <color key="tintColor" red="0.90588235289999997" green="0.91764705879999997" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="fhD-m8-a5d"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="tintColor" red="0.90588235289999997" green="0.91764705879999997" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="jJI-gT-MVI" firstAttribute="leading" secondItem="Pmd-6J-KQb" secondAttribute="leading" constant="8" id="Cm1-Ws-K6V"/>
+                        <constraint firstAttribute="trailing" secondItem="FOQ-aQ-GiF" secondAttribute="trailing" id="RPb-rD-4Al"/>
+                        <constraint firstAttribute="centerY" secondItem="Deb-5q-lyA" secondAttribute="centerY" id="Vy3-fp-MWt"/>
+                        <constraint firstAttribute="trailing" secondItem="QCM-1l-rLZ" secondAttribute="trailing" constant="8" id="bVv-Wj-Duw"/>
+                        <constraint firstItem="Deb-5q-lyA" firstAttribute="leading" secondItem="jJI-gT-MVI" secondAttribute="trailing" constant="16" id="diL-qQ-Rxd"/>
+                        <constraint firstItem="FOQ-aQ-GiF" firstAttribute="leading" secondItem="Pmd-6J-KQb" secondAttribute="leading" id="f86-jq-xdU"/>
+                        <constraint firstAttribute="bottom" secondItem="FOQ-aQ-GiF" secondAttribute="bottom" constant="4" id="fFo-8x-rw9"/>
+                        <constraint firstItem="QCM-1l-rLZ" firstAttribute="centerY" secondItem="Deb-5q-lyA" secondAttribute="centerY" id="mY1-qq-LD4"/>
+                        <constraint firstItem="jJI-gT-MVI" firstAttribute="centerY" secondItem="Pmd-6J-KQb" secondAttribute="centerY" id="rUt-nO-NLF"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Pmd-6J-KQb" firstAttribute="leading" secondItem="U7y-7U-Yb9" secondAttribute="leading" id="WhA-V7-EOe"/>
+                <constraint firstAttribute="bottom" secondItem="Pmd-6J-KQb" secondAttribute="bottom" id="iaS-lk-ELg"/>
+                <constraint firstAttribute="trailing" secondItem="Pmd-6J-KQb" secondAttribute="trailing" id="nYi-I2-r9e"/>
+                <constraint firstItem="Pmd-6J-KQb" firstAttribute="top" secondItem="U7y-7U-Yb9" secondAttribute="top" id="zOz-Xk-Fyg"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imgErro" destination="QCM-1l-rLZ" id="5JW-Ku-4NA"/>
+                <outlet property="imgItem" destination="jJI-gT-MVI" id="Zcn-LP-shb"/>
+                <outlet property="lblItemName" destination="Deb-5q-lyA" id="7nl-HP-FQT"/>
+            </connections>
+            <point key="canvasLocation" x="132.80000000000001" y="99.753694581280797"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow_gray" width="32" height="32"/>
+        <image name="bird-cate-image" width="378" height="146"/>
+        <namedColor name="colorDarkGray">
+            <color red="0.66299998760223389" green="0.66299998760223389" blue="0.66299998760223389" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorGray">
+            <color red="0.43900001049041748" green="0.43900001049041748" blue="0.43900001049041748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorLightGray">
+            <color red="0.82700002193450928" green="0.82700002193450928" blue="0.82700002193450928" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,68 @@
+/* 
+  Localizable.strings
+  Demo_Test
+
+ Created by Mac on 03/06/21.
+  Copyright © 2019 Mac HD. All rights reserved.
+*/
+"ALERT" = "Alert";
+"CHECK_NETWORK_CONNECTION" = "Please Check Your Internet Connection";
+"ENTER_EMAIL" = "Please enter email id";
+"ENTER_CORRECT_EMAIL" = "Please enter valid email id";
+"ENTER_CORRECT_PASSWORD" = "Please enter valid password";
+"ENTER_CONFIRM_PASSWORD" = "Please enter confrim password";
+"ENTER_CORRECT_CONFIRM_PASSWORD" = "Please enter valid confrim password";
+"ENTER_CORRECT_FIRST_NAME" = "Please enter valid firstname";
+"ENTER_CORRECT_LAST_NAME" = "Please enter valid lastname";
+"ENTER_CORRECT_MOBILE_NO" = "Please enter valid mobile number";
+"ENTER_PASSWORD" = "Please enter password";
+"ENTER_FIRSTNAME" = "Please enter firstname";
+"ENTER_LASTNAME" = "Please enter lastname";
+"ENTER_NAME" = "Please enter name";
+"ENTER_ZIP" = "Please enter zip";
+"ENTER_CITY" = "Please enter city";
+"ENTER_STATE" = "Please enter state";
+"ENTER_COUNTRY" = "Please enter country";
+"ENTER_WEBSITE" = "Please enter website";
+"ENTER_CURRENTPOSITION" = "Please enter current position";
+"ENTER_SELECTCATEGORY" = "Please select category";
+"SELECT_PROFILEIMAGE" = "Please select profile image";
+"ENTER_PROFESSIONAL_SKILLS" = "Please enter professional skills";
+"ENTER_ADDITIONAL_SKILLS" = "Please enter additional skills";
+
+
+"ENTER_MOBILENUMBER" = "Please enter mobile number";
+"ERROR_REQUEST_TIMEOUT" = "Request timed out";
+"ERROR_SESSION_EXPIRED" = "Session Expired";
+"ERROR_AUTHENTICATION" = "Authentication Error";
+"ERROR_BAD_REQUEST" = "Bad Request Error";
+"ERROR_URL_OUTDATED" = "Outdated Url Error";
+"ERROR_REQUEST_CANCELED" = "Request Was Cancelled";
+"ERROR_TITLE" = "Error";
+"ERROR_CHECK_YOUR_INTERNET_CONNECTION" = "Please check your connection and try again";
+"ERROR_NETWORK_CONNECTION_LOST" = "Network connection lost";
+"ERROR_SECURE_CONNECTION_FAILED" = "The secure connection failed for an unknown reason";
+"ERROR_SSL_SERVER_ERROR" = "SSL Server Error";
+"ERROR_LOADING_DATA" = "There was an error loading the data";
+"NO_DATA_FOUND" = "No Data Found";
+"TITLE_OK" = "Ok";
+"TITLE_CANCEL" = "Cancel";
+"ACCEPT_TERMS&CONDITION" = "Please agree with Terms & Condition";
+"SELECT_CATEGORY" = "Please select category information.";
+"SET_CURRENT_POISITION" = "Please set your current position.";
+"ADD_ADDITIONAL_SKILLS" = "Please add additional skills.";
+"ENTER_CURRENT_PASSWORD" = "Please enter current password.";
+"ENTER_NEW_PASSWORD" = "Please enter new password.";
+"ENTER_GROUP_NAME" = "Please enter group name.";
+
+
+
+"Login" = "Login";
+"Email Address" = "Email Address";
+"Password" = "Password";
+"Forgot Password ?" = "Forgot Password ?";
+"LOGIN TO MY ACCOUNT" = "LOGIN TO MY ACCOUNT";
+"Register Now" = "Register Now";
+"Please_enter_the_OTP_to_verify_your_number" = "Please enter the OTP to verify your number  " ;
+
+
