@@ -21,11 +21,11 @@ class ApiConstant: NSObject{
     static var BASEURL : String {
         switch ApiConstant.environment {
         case .dev:
-            return "http://petsspot.akkode.com/api/"
+            return "http://test.com/api/"
         case .staging:
-            return "https://petsspot.akkode.com/api/"
+            return "https://test.com/api/"
         case .production:
-            return "https://petsspot.akkode.com/api/"
+            return "https://test.com/api/"
         }
     }
     
